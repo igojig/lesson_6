@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d6a0f3d3-b209-4ec7-9bfa-070bf3192306" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.MD" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/main/java/com/geekbrains/spring/web/api/dto/StringResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/main/java/com/geekbrains/spring/web/api/exceptions/AppError.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/main/java/com/geekbrains/spring/web/api/exceptions/ResourceNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auth-service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auth-service/src/main/java/com/geekbrains/spring/web/auth/WebAuthServiceApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auth-service/src/main/java/com/geekbrains/spring/web/auth/configs/SecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auth-service/src/main/java/com/geekbrains/spring/web/auth/configs/StandardAuthenticationProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auth-service/src/main/java/com/geekbrains/spring/web/auth/controllers/AuthController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auth-service/src/main/java/com/geekbrains/spring/web/auth/dto/JwtRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auth-service/src/main/java/com/geekbrains/spring/web/auth/dto/JwtResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auth-service/src/main/java/com/geekbrains/spring/web/auth/entities/Role.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auth-service/src/main/java/com/geekbrains/spring/web/auth/entities/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auth-service/src/main/java/com/geekbrains/spring/web/auth/repositories/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auth-service/src/main/java/com/geekbrains/spring/web/auth/services/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auth-service/src/main/java/com/geekbrains/spring/web/auth/utils/JwtTokenUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auth-service/src/main/resources/application.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auth-service/src/main/resources/db/migration/V1__init.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core-service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core-service/src/main/java/com/geekbrains/spring/web/core/SpringWebApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core-service/src/main/java/com/geekbrains/spring/web/core/configs/RedisConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core-service/src/main/java/com/geekbrains/spring/web/core/controllers/CartsController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core-service/src/main/java/com/geekbrains/spring/web/core/controllers/OrdersController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core-service/src/main/java/com/geekbrains/spring/web/core/controllers/ProductsController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core-service/src/main/java/com/geekbrains/spring/web/core/controllers/ProfileController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core-service/src/main/java/com/geekbrains/spring/web/core/converters/OrderConverter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core-service/src/main/java/com/geekbrains/spring/web/core/converters/OrderItemConverter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core-service/src/main/java/com/geekbrains/spring/web/core/converters/ProductConverter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core-service/src/main/java/com/geekbrains/spring/web/core/dto/Cart.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core-service/src/main/java/com/geekbrains/spring/web/core/dto/OrderDetailsDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core-service/src/main/java/com/geekbrains/spring/web/core/dto/OrderDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core-service/src/main/java/com/geekbrains/spring/web/core/dto/OrderItemDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core-service/src/main/java/com/geekbrains/spring/web/core/dto/ProductDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core-service/src/main/java/com/geekbrains/spring/web/core/dto/ProfileDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core-service/src/main/java/com/geekbrains/spring/web/core/entities/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core-service/src/main/java/com/geekbrains/spring/web/core/entities/OrderItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core-service/src/main/java/com/geekbrains/spring/web/core/entities/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core-service/src/main/java/com/geekbrains/spring/web/core/exceptions/FieldsValidationError.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core-service/src/main/java/com/geekbrains/spring/web/core/exceptions/GlobalExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core-service/src/main/java/com/geekbrains/spring/web/core/exceptions/ValidationException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core-service/src/main/java/com/geekbrains/spring/web/core/repositories/OrdersRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core-service/src/main/java/com/geekbrains/spring/web/core/repositories/ProductsRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core-service/src/main/java/com/geekbrains/spring/web/core/repositories/specifications/ProductsSpecifications.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core-service/src/main/java/com/geekbrains/spring/web/core/services/CartService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core-service/src/main/java/com/geekbrains/spring/web/core/services/OrderService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core-service/src/main/java/com/geekbrains/spring/web/core/services/ProductsService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core-service/src/main/java/com/geekbrains/spring/web/core/validators/ProductValidator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core-service/src/main/resources/application.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core-service/src/main/resources/db/migration/V1__init.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core-service/src/test/java/com/geekbrains/spring/core/SpringWebApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front-service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front-service/src/main/java/com/geekbrains/spring/web/front/FrontApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front-service/src/main/resources/application.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front-service/src/main/resources/static/cart/cart.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front-service/src/main/resources/static/cart/cart.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front-service/src/main/resources/static/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front-service/src/main/resources/static/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front-service/src/main/resources/static/orders/orders.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front-service/src/main/resources/static/orders/orders.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front-service/src/main/resources/static/store/store.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front-service/src/main/resources/static/store/store.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front-service/src/main/resources/static/welcome/welcome.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front-service/src/main/resources/static/welcome/welcome.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/java/com/geekbrains/spring/web/gateway/GatewayApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/java/com/geekbrains/spring/web/gateway/JwtAuthFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/java/com/geekbrains/spring/web/gateway/JwtUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/resources/application.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="workspaceImportEnabled" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2LRybFQtquvspII6aZSgbDFo8Am" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/GeekBrains/3 четверь/Spring_2_cloud/lesson_6&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\GeekBrains\3 четверь\Spring_2_cloud\lesson_6" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.geekbrains.spring.web.auth.configs" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.GatewayApp">
+    <configuration name="FrontApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.geekbrains.spring.web.front.FrontApplication" />
+      <module name="front-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.geekbrains.spring.web.front.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GatewayApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.geekbrains.spring.web.gateway.GatewayApp" />
+      <module name="gateway" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.geekbrains.spring.web.gateway.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringWebApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.geekbrains.spring.web.core.SpringWebApplication" />
+      <module name="core-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.geekbrains.spring.web.core.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WebAuthServiceApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.geekbrains.spring.web.auth.WebAuthServiceApplication" />
+      <module name="auth-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.geekbrains.spring.web.auth.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="com.geekbrains.spring.web.SpringWebApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.geekbrains.spring.web.SpringWebApplication" />
+      <module name="core-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.geekbrains.spring.web.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.GatewayApp" />
+        <item itemvalue="Application.FrontApplication" />
+        <item itemvalue="Application.SpringWebApplication" />
+        <item itemvalue="Application.WebAuthServiceApplication" />
+        <item itemvalue="Application.com.geekbrains.spring.web.SpringWebApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d6a0f3d3-b209-4ec7-9bfa-070bf3192306" name="Changes" comment="" />
+      <created>1675848259575</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1675848259575</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="redisTemplate.hasKey(cartKey)" language="JAVA" />
+        <watch expression="redisTemplate.opsForValue().get(cartKey)" language="JAVA" />
+        <watch expression="redisTemplate.opsForValue()" language="JAVA" />
+      </configuration>
+    </watches-manager>
+  </component>
+</project>
