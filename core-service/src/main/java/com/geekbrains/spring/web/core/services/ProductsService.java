@@ -3,7 +3,7 @@ package com.geekbrains.spring.web.core.services;
 import com.geekbrains.spring.web.core.repositories.ProductsRepository;
 import com.geekbrains.spring.web.core.repositories.specifications.ProductsSpecifications;
 import com.geekbrains.spring.web.api.exceptions.ResourceNotFoundException;
-import com.geekbrains.spring.web.core.dto.ProductDto;
+import com.geekbrains.spring.web.api.dto.ProductDto;
 import com.geekbrains.spring.web.core.entities.Product;
 import lombok.RequiredArgsConstructor;
 import org.springframework.data.domain.Page;

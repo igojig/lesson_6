@@ -1,5 +1,6 @@
 package com.geekbrains.spring.web.core.dto;
 
+import com.geekbrains.spring.web.api.dto.OrderItemDto;
 import lombok.Data;
 import java.util.List;
 
