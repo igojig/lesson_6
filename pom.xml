@@ -10,6 +10,7 @@
 		<module>gateway</module>
         <module>auth-service</module>
         <module>api</module>
+        <module>cart-service</module>
     </modules>
 
     <parent>
@@ -23,6 +24,7 @@
 	<artifactId>spring-web</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>spring-web</name>
+
 	<description>First Spring Web Project</description>
 
 	<properties>

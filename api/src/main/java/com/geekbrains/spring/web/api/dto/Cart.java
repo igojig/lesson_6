@@ -1,6 +1,6 @@
-package com.geekbrains.spring.web.core.dto;
+package com.geekbrains.spring.web.api.dto;
 
-import com.geekbrains.spring.web.core.entities.Product;
+
 import lombok.Data;
 
 import java.util.ArrayList;
@@ -16,7 +16,7 @@ public class Cart {
         this.items = new ArrayList<>();
     }
 
-    public void add(Product product) {
+    public void add(ProductDto product) {
         if (add(product.getId())) {
             return;
         }

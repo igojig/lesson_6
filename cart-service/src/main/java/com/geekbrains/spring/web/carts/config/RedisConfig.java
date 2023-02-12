@@ -1,4 +1,4 @@
-package com.geekbrains.spring.web.core.configs;
+package com.geekbrains.spring.web.carts.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
