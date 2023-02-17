@@ -34,7 +34,8 @@ public class CartsController {
 
     @GetMapping("/{uuid}")
     public Cart getCart(@RequestHeader(required = false) String username, @PathVariable String uuid) {
-        return cartService.getCurrentCart(getCurrentCartUuid(username, uuid));}
+        String cartUuid=getCurrentCartUuid(username, uuid);
+        return cartService.getCurrentCart(cartUuid);}
 
     @GetMapping("/generate")
     public StringResponse getCart() {

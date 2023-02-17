@@ -29,6 +29,7 @@ public class CartService {
         return UUID.randomUUID().toString();
     }
 
+    // если корзины нет, создаем новую корзину
     public Cart getCurrentCart(String cartKey) {
         if (!redisTemplate.hasKey(cartKey)) {
             redisTemplate.opsForValue().set(cartKey, new Cart());
@@ -75,7 +76,7 @@ public class CartService {
         redisTemplate.opsForValue().set(cartKey, cart);
     }
 
-    public String getPrefix() {
-        return cartPrefix;
-    }
+//    public String getPrefix() {
+//        return cartPrefix;
+//    }
 }
